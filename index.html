@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Tajir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <div class="logo">
+                    <h2>TaJir</h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li> <a href="#">HOME</a></li>
+                        <li> <a href="#">ABOUT</a></li>
+                        <li> <a href="#">COURSES</a></li>
+                        <li> <a href="#">COUTACT</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search" name="rr" placeholder="type to text">
+                    <a href="#"> <button class="btn">search</button></a>
+                </div>
+            </div>
+            <div class="content">
+                <h1> Video Editing & <br> <span>Garaphic Desing <br> </span>Avaliple</h1>
+                <p class="prph">🎬 Welcome to the World of Creativity! ( TajKib ) 🎨 <br>
+                    Ready to turn your passion into powerful visuals? Whether you're dreaming of crafting stunning<br>
+                    videos or designing eye-catching graphics, you're in the right place. This platform is your <br>
+                    launchpad into the world of Video Editing and Graphic Design — with easy-to-follow lessons, hands-on <br>
+                    projects, and tools that take you from beginner to pro. No matter your starting point, you’ll find <br>
+                    the guidance and inspiration you need to grow your skills and bring your ideas to life.
+                    Learn. Create. Inspire.</p>
+                    <button class="jn"> <a href="galary.html">JOIN US</a></button>
+            </div>
+            <div class="form">
+                
+                <h2>Login</h2>
+                <input type="text" id="username" name="Username" placeholder="Enter your Username">
+                <input type="password" id="password" name="password" placeholder="Enter Your password">
+                <button class="btnn" onclick="validateLogin()"> <span>Login</span></button>
+
+                <p class="link">Dont have an account <br>
+                <a href="#">Sing up here</a></p>
+                <p class="liw">Login with</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      function validateLogin() {
+        const user = document.getElementById('username').value.trim();
+        const pass = document.getElementById('password').value.trim();
+
+        if(user === 'muaawiya' && pass === '358c6240') {
+          window.location.href = 'profile.html';
+        } else {
+          alert('Username ama Password khaldan!');
+        }
+      }
+    </script>
+   
+</body>
+
+</html>

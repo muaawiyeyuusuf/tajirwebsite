@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <style>
+    :root {
+      --main-color: rgb(60, 208, 245);
+      --white: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: var(--white);
+      color: var(--main-color);
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--main-color);
+      color: var(--white);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>My Creative Gallery</header>
+  <div class="gallery">
+    <img src="download (2).jpeg" alt="Image 1" />
+    <img src="download (3).jpeg" alt="Image 2" />
+    <img src="download (4).jpeg" alt="Image 3" />
+    <img src="download (5).jpeg" alt="Image 3" />
+    <img src="Foto Di Depan Layar Kamera.jpeg" alt="Image 3" />
+    <img src="Foto Kartun 3D Di Depan Layar Kamera (1).jpeg" alt="Image 3" />
+    <img src="Man Office Photos - Download Free High-Quality Pictures _ Freepik.jpeg" alt="Image 3" />
+    <img src="Man Office Photos - Download Free High-Quality Pictures _ Freepik.jpeg" alt="Image 3" />
+    <img src="if you Looking for a thumbnail design + video editing , Everythin.jpeg" alt="Image 3" />
+    <img src="💸 AI Saves You 30% on EVERYTHING.jpeg" alt="Image 3" />
+    <img src="💡 Unlock Your Content Genius with AI Tools! 🔑.jpeg" alt="Image 3" />
+    <img src="download (4).jpeg" alt="Image 3" />
+    <img src="The is my life.jpeg" alt="Image 3" />
+    <img src="Transform Your Health, Transform Your Life.jpeg" alt="Image 3" />
+    <img src="命۪  𝅚̼ ࣪〣 OVERLAYS Photo.jpeg" alt="Image 3" />
+    
+  </div>
+</body>
+</html>
